@@ -8,26 +8,32 @@
     text-decoration: none;
     text-align: center;
 }
-h1{
+
+h1 {
     padding-top: 3%;
     font-size: 24px;
-    font-style:initial;
+    font-style: initial;
 }
-h2{
+
+h2 {
     padding-top: 3%;
     font-size: 18px;
-    font-style:italic;
+    font-style: italic;
     color: #e3e6f1;
 }
-h3{
+
+h3 {
     font-size: 16px;
     text-align: justify;
     margin: 20px;
-    font-style:italic;
+    font-style: italic;
     color: #ccd0da;
 }
-li {
+
+.list {
     line-height: 50px;
+    font-size: 14px;
+    padding: 5px;
 }
 
 .header {
@@ -56,4 +62,14 @@ a:hover {
 
 #content {
     margin-left: 50px;
+}
+@media screen and (max-width: 420px) {
+    .list{font-size: 8px}
+    .header { width: 25%;}
+    .block{width: 75%;}
+}
+@media screen and (max-width: 926px) {
+    .header { width: 15%;}
+    .block{width: 85%;}
+
 }
